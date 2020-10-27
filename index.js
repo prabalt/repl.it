@@ -65,6 +65,3 @@ var json_string = '{"parameters":{"personal_information":{"last_name":"Proulx","
 output = {};
 console.log(recursive_nested_json(json_string=json_string, prev_key="", output=output));
 console.log(recursive_nested_json_2(json_string=json_string, prev_key="", output=output));
-
-
-
